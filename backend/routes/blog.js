@@ -5,4 +5,5 @@ const { time } = require("../controller/blog-path-controller");
 
 router.get("/", time);
 
+// export to "../server.js"
 module.exports = router;
